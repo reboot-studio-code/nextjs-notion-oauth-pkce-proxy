@@ -1,16 +1,16 @@
-## Notion Oauth PKCE Proxy
+## Notion OAuth PKCE Proxy
 
-This is a Notion Oauth PKCE proxy build with [Next.js](https://nextjs.org).
+This is a Notion OAuth PKCE proxy build with [Next.js](https://nextjs.org).
 
-We build this because when we were building the Hypersonic Raycast app at the studio the notion api wasn't working with PKCE so the best solution was to build this proxy.
+We build this because when we were building the [Hypersonic Raycast App](https://hypersonic.run) at the studio the notion api wasn't working with PKCE so the best solution was to build this proxy.
 
 The proxy server has been tested with our own app but it may need some tweaks to adapt to your use case so use it as an starting point.
 
 ## Configuration
 
-Create and .env.local file using the enviroment varibales from the .env.template and fill the values with your own.
+Create an .env.local file using the enviroment varibales from the .env.template and fill the values with your own.
 
-Example using [Raycast](https://www.raycast.com) as the app client:
+Example using [Raycast](https://www.raycast.com) as the client:
 
 ```
 AUTH_TOKEN=Notion Base64 Basic Auth Token

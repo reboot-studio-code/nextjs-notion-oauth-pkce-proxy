@@ -12,7 +12,7 @@ if (!process.env.AUTH_TOKEN) {
   throw new Error("AUTH_TOKEN env variable is not set");
 }
 
-export default async function authorize(
+export default async function accessToken(
   req: NextApiRequest,
   res: NextApiResponse
 ) {

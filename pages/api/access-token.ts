@@ -21,7 +21,7 @@ export default async function authorize(
   const code = body.code;
   const redirectUri = process.env.PROXY_REDIRECT_URL;
 
-  const response = await fetch(`${process.env.PROXY_REDIRECT_URL}`, {
+  const response = await fetch(`${process.env.NOTION_TOKEN_URL}`, {
     method: "POST",
     headers: {
       Authorization: `Basic ${process.env.AUTH_TOKEN}`,

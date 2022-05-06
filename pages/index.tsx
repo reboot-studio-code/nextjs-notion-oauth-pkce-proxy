@@ -7,10 +7,10 @@ const Home: NextPage = () => {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main style={{ textAlign: "center" }}>
         <h1>
-          Hello this is a notion PKCE proxy example built with Next.js by Reboot
-          Studio
+          Notion PKCE proxy built with Next.js by{" "}
+          <a href="https://reboot.studio">Reboot Studio</a>
         </h1>
       </main>
     </div>

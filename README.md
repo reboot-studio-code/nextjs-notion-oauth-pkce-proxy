@@ -35,3 +35,6 @@ After that you may want to expose your localhost using [Ngrok](https://ngrok.com
 ## Deploy on Vercel
 
 The easiest way to deploy the proxy is using [Vercel](https://vercel.com) from the creators of Next.js.
+
+![github-banner](https://user-images.githubusercontent.com/42417619/167178913-14d05f08-7364-4440-8423-792ff5ab838d.png)
+
